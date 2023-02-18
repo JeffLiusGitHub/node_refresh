@@ -30,4 +30,19 @@ if timer finished, callback function will only be called when Node back to timer
 
 4. close callback (websocket shut down)
 
+5. nexttick()queue
+
+6. other microtasks queue
+
+5/6 will run right after one phase finish
+
+check if any pending timers or I/O tasks. If yes, go through the task again if not exit program
+HTTP request: IO task
+
+
+
+
+
+
+
 
