@@ -40,7 +40,12 @@ check if any pending timers or I/O tasks. If yes, go through the task again if n
 HTTP request: IO task
 
 
+Hints for the performance:
 
+1. Don't use Sync version in fs, crypto, zlib in callback functions
+2. Don't perform complex calcuations in event loop
+3. Be careful with large JSON 
+4. Don't use too complex regular expression
 
 
 
