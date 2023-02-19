@@ -54,7 +54,7 @@ complex routing, handling requests and responses, middleware, server-side render
 
 
 
-
+Mongoose is an Object Data Modeling (ODM) library for mongoDB and Node js, a higher level of abstraction
 
 
 
